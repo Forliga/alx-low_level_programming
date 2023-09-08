@@ -1,15 +1,16 @@
 #include <stdio.h>
 
-/* more headers goes there *
-* betty style doc for function main goes there 
-*/
+/*
+ * main - prints alphabetic
+ * betty styl
+ */
 
 int main(void)
 
 {
 	char c;
 
-	for (c = 'a'; c <= '2'; c++)
+	for (c = 'a'; c <= 'z'; c++)
         putchar(c);
 	putchar('\n');	
 	return (0);
