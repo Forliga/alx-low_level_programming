@@ -5,11 +5,10 @@
 /**
  * main - prints if number is positive, zero or negative
  * return: always (success)
- *
+ *              
  */
 
-int main(void)
-
+int main()
 {
 	int n;
 
@@ -28,6 +27,5 @@ int main(void)
 		 printf("%d is negative\n", n);
 	}
 	return (0);
-
 }
 
